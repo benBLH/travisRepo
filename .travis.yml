@@ -1,3 +1,4 @@
+---
 language: python
 python:
   - "3.7"
@@ -6,7 +7,7 @@ python:
   
 # command to install dependencies
 install:
-  - pip install pylint
+  - pip instalpylint
 # command to run tests
 script:
   - pylint main.py
